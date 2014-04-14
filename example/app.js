@@ -19,5 +19,5 @@ appsflyer.startTracker('APPSFLYER_DEV_KEY');
 appsflyer.setInstallId('unique_user_id');
 
 appsflyer.trackAppLaunch();
-appsflyer.trackEvent('register', '');
-appsflyer.trackEvent('purchase', '$3.75');
+appsflyer.trackAction('register', '');
+appsflyer.trackAction('purchase', '$3.75');

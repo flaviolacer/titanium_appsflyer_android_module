@@ -58,7 +58,7 @@ public class AndroidModule extends KrollModule
 	}
 
 	@Kroll.method
-	public void trackEvent(String eventName, String eventValue) {
+	public void trackAction(String eventName, String eventValue) {
 		TiApplication appContext = TiApplication.getInstance();
 		AppsFlyerLib.sendTrackingWithEvent(appContext, eventName, eventValue);
 	}
