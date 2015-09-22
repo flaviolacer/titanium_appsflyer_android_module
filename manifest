@@ -4,6 +4,7 @@
 #
 version: 1.1
 apiversion: 2
+architectures: armeabi armeabi-v7a x86
 description: Appsflyer Android SDK integration
 author: Shopmium (Jonathan Benay)
 license: no license
@@ -15,4 +16,4 @@ name: android
 moduleid: com.shopmium.appsflyer
 guid: e0050633-4fce-4882-93ba-b1656fda0697
 platform: android
-minsdk: 3.2.1.GA
+minsdk: 4.0.0.GA
